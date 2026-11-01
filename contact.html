@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CricketZone - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CricketZone 🏏</h1>
+        <p>Get In Touch With Us</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>Place Your Order</h2>
+
+        <form id="orderForm">
+
+            <label>Your Name</label>
+            <input type="text"
+                   placeholder="Enter your name"
+                   required>
+
+            <label>Email Address</label>
+            <input type="email"
+                   placeholder="Enter your email"
+                   required>
+
+            <label>Phone Number</label>
+            <input type="tel"
+                   placeholder="Enter your phone number"
+                   required><label>Delivery Address</label>
+<textarea
+    placeholder="House number, street, area..."
+    rows="3"
+    required>
+</textarea>
+
+<label>City</label>
+<input type="text"
+       placeholder="Enter your city"
+       required>
+
+<label>Postal Code</label>
+<input type="text"
+       placeholder="Enter postal code"
+       required>
+
+
+            <label>Select Product</label>
+
+            <select required>
+                <option value="">Choose a product</option>
+                <option>English Willow Bat</option>
+                <option>Kashmir Willow Bat</option>
+                <option>Tape Ball Bat</option>
+                <option>Red Cricket Ball</option>
+                <option>White Cricket Ball</option>
+            </select>
+
+            <label>Quantity</label>
+            <input type="number"
+                   min="1"
+                   value="1"
+                   required>
+
+            <button type="submit">
+                Submit Order
+            </button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 CricketZone. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
